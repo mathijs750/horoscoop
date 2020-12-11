@@ -53,6 +53,8 @@ export default {
       if (this.bsn.length > 9) {
         this.bsn = this.bsn.slice(0, 9);
       }
+      hasValid = false
+      hasInvalid = false
     },
     onSearch() {
       console.log("Dit is gelukkig alleen maar in je browser. 💖")
