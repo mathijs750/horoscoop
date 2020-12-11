@@ -10,7 +10,7 @@
       <button @click="onSearch" :disabled="!isBSNValid">Zoek</button>
     </div>
     <div class="Result" v-if="hasValid">
-      <h1>Lief {{ bsn  }}tje,</h1>
+      <h1>Lief {{ bsn }}tje,</h1>
       <hr>
       <p>
         In uw toekomst zie ik veel slechte keuzes. U zal veel rekeningen gaan zien op uw naam zonder dat u daar zelf iets voor hoeft te doen.
@@ -20,7 +20,7 @@
       </p>
     </div>
     <div class="Result" v-if="hasInvalid">
-      <h1>{{ bsn  }}, hoe durf je?</h1>
+      <h1>{{ bsn }}, hoe durf je?</h1>
       <p>
         Het Orakel is woest! Leugens zullen ernstige conequeties hebben in uw toekomst. Neem nu maar alvast afscheid van uw geliefden.
       </p>
@@ -105,7 +105,7 @@ body {
   background-color: $background-color;
   min-height: 100vh;
 
-  background-image: url("./assets/bg3.jpg");
+  background-image: url("./assets/bg3-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
