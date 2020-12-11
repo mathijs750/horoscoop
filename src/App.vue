@@ -46,14 +46,14 @@
 
           "Jupiter staat goed, net als de nieuw leningen op uw naam. Hou er rekening mee dat U wordt aangehouden " +
           "bij een grensovergang.",
-          
+
           "U ontvangt binnenkort boze berichten van mensen die u als oplichter zien. Mercurius is halverwege dus " +
           "blijf weg weg van  een online marktplaatsen."
         ],
         disappointment: [
           "Het Orakel is woest! Leugens zullen ernstige conequeties hebben in uw toekomst. " +
           "Neem nu maar alvast afscheid van uw geliefden.",
-          
+
           "Liegen is een slechte gewoonte. Uw dierbare praten daar vaak over achter uw rug om."
         ],
         greetings: {
@@ -102,10 +102,10 @@
 </script>
 
 <style lang="scss">
-  $dark-color: #2c3e50;
+  $dark-color: #2f4255;
   $light-color: #ffffff;
-  $cta-color: rgb(255, 201, 51);
-  $light-background-color: rgb(209, 255, 236);
+  $cta-color: rgb(255, 200, 50);
+  $light-background-color: rgb(210, 255, 235);
   $background-color: #265568;
   $font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -134,8 +134,8 @@
 
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr minmax(min-content, 800px) 1fr;
-    grid-template-rows: 22vh minmax(min-content, 30vh) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 600px) 1fr;
+    grid-template-rows: 20vh minmax(min-content, 30vh) 1fr;
     gap: 0;
     min-height: 100vh;
   }
@@ -150,6 +150,7 @@
     display: flex;
     justify-self: center;
     align-items: center;
+    padding: 32px;
 
     h1 {
       font-size: 3em;
