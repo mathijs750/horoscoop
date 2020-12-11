@@ -21,6 +21,7 @@
     </div>
     <div class="Result" v-if="hasInvalid">
       <h1>{{ bsn }}, hoe durf je?</h1>
+      <hr>
       <p>
         Het Orakel is woest! Leugens zullen ernstige conequeties hebben in uw toekomst. Neem nu maar alvast afscheid van uw geliefden.
       </p>
@@ -141,7 +142,7 @@ h1, h2, h3{
   
   // display:flex;
   // justify-content:space-around;
-  padding: 1em;
+  padding: 16px;
 
   .label-box {
     max-width: 100%;
@@ -172,13 +173,13 @@ h1, h2, h3{
     background-color: $cta-color;
     border-color: $dark-color;
     font-size: 1.3em;
-    padding: .2em;
-    border-width: 3px;
+    padding: 8px;
+    border-width: 4px;
     border-style: solid;
     color: $dark-color;
     border-color: $cta-color;
     background-color: $cta-color;
-    margin-top: 1em;
+    margin-top: 16px;
     min-width: 30%;
 
     &:disabled{
@@ -191,7 +192,7 @@ h1, h2, h3{
 hr {
   color: $light-color;
   max-width: 80%;
-  margin: .3em auto;
+  margin: 8px auto;
 }
 
 p {
@@ -201,7 +202,7 @@ p {
 .Result {
   grid-area: 3 / 2 / 4 / 3;
   background-color: $background-color;
-  padding: 2em;
+  padding: 32px;
 
   h1{
     margin-top: 0.5em;
