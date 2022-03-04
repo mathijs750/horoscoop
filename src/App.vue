@@ -5,9 +5,14 @@
     </div>
     <div class="SearchArea">
       <div class="label-box">
-        <label>
-          <input @input="onInput" v-model="bsn" type="number" placeholder="Uw BSN"/>
-        </label>
+        <label for="bsn-input" class="visually-hidden">Search: </label>
+        <input
+          type="number"
+          placeholder="Uw BSN"
+          name="bsn-input"
+          id="search"
+          v-model="bsn"
+        />
       </div>
       <button @click="onSearch" :disabled="!isBSNValid">Zoek</button>
     </div>
@@ -207,6 +212,9 @@ h3 {
   }
 }
 
+.visually-hidden {
+  display: none;
+}
 
 hr {
   color: $light-color;
