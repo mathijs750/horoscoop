@@ -136,8 +136,6 @@
     display: grid;
     grid-template-columns: 1fr minmax(min-content, 600px) 1fr;
     grid-template-rows: 20vh minmax(min-content, 30vh) 1fr;
-    gap: 0;
-    min-height: 100vh;
   }
 
   h1, h2, h3 {
@@ -209,12 +207,14 @@
 
   p {
     margin: 1.5em auto;
+    max-width: 52ch;
   }
 
   .Result {
     grid-area: 3 / 2 / 4 / 3;
     background-color: $background-color;
     padding: 32px;
+    margin: 16px;
 
     h1 {
       margin-top: 0.5em;
